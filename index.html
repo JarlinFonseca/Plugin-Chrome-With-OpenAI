@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Images IA!</title>
+    <script src="script.js"></script>
+    <style>
+        /* make sure that adding text to info section does not alter viewport size. */
+        html {
+           /* height: 400px;*/
+            width: 380px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Generate Images with IA</h1>
+   
+        <input type="text" id="prompt" placeholder="Enter your prompt"  required>
+
+
+        <button id="convert" >Generate</button>
+
+
+
+
+
+    <br>
+    <div  id="show" style="display: none;">
+        <br><br>
+
+        <img src="" alt="Imagen IA" id="image" width="350" height="350">
+        <p>URL generada por la IA <strong><a href="" id="result" >URL imagen</a> </strong></p>
+        <div id="error"></div>
+    </div>
+ 
+</body>
+
+</html>

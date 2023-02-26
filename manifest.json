@@ -1,0 +1,17 @@
+{
+    "name": "Generator of Images with OpenIA",
+    "version": "1.0.0",
+    "description": "This extension generate Images with OpenIA",
+    "manifest_version": 3,
+    "author": "Jarlin Fonseca",
+    "action": {
+      "default_popup": "index.html",
+      "default_title": "Images OpenIA"
+    },
+    "icons": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
