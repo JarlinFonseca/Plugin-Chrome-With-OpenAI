@@ -4,79 +4,32 @@
 <head>
     <title>Images IA!</title>
     <script src="script.js"></script>
-    <style>
-        /* make sure that adding text to info section does not alter viewport size. */
-        html {
-            height: 195px;
-            width: 400px;
-        }
-
-        .gtx-footer {
-            background-color: #f0f0f0;
-            color: #636363;
-            font-family: 'Roboto', sans-serif;
-            font-size: 11px;
-            margin-top: 9px;
-            padding: 10px;
-            text-align: center;
-        }
-
-        footer {
-            position: fixed;
-            left: 0px;
-            bottom: 0px;
-            width: 100%;
-        }
-
-        .lds-dual-ring {
-            display: inline-block;
-            width: 80px;
-            height: 80px;
-        }
-
-        .lds-dual-ring:after {
-            content: " ";
-            display: block;
-            width: 64px;
-            height: 64px;
-            margin: 8px;
-            border-radius: 50%;
-            border: 6px solid black;
-            border-color: black transparent black transparent;
-            animation: lds-dual-ring 1.2s linear infinite;
-        }
-
-        @keyframes lds-dual-ring {
-            0% {
-                transform: rotate(0deg);
-            }
-
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-    </style>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1 style="text-align: center;">Generate Images with IA</h1>
+    <h1 class="title">Generate Images With IA</h1>
 
-    <!--   <input type="text" id="prompt" placeholder="Enter your prompt" > -->
-    <textarea id="prompt" cols="49" placeholder="Enter your prompt" rows="3" style="resize: none;"></textarea>
-    <div id="aviso" style="color: red; margin-bottom: 2px;"></div>
+    <textarea id="prompt"  class="prompt-style" cols="49" rows="3"  placeholder="Enter your prompt"></textarea>
 
-    <button id="generate">Generate</button>
+    <div id="aviso" class="alert"></div>
 
-    <div id="spinner" style="display: none; margin-bottom: 30px; text-align: center;">
+    <button id="generate" class="btn">Generate</button>
+
+
+    <div id="spinner" class="loading">
         <div class="lds-dual-ring">&nbsp</div>
     </div>
 
-
     <br><br>
-    <div id="show" class="container" style="display: none; margin-bottom: 5px; text-align: center;">
-        <img src="" alt="Imagen IA" id="image" width="350" height="350">
-        <p><strong>URL generada por la IA <strong><a href="" target="_blank" id="result">imagen</a></strong></strong>
-        </p>
+
+    <div id="show" class="container" >
+        <img src="" alt="Imagen IA" id="image" class="img" >
+        <p class="frase">URL generada por la IA <strong><a href="" target="_blank" id="result">imagen</a></p>
         <br><br>
         <div id="error"></div>
     </div>
@@ -88,7 +41,6 @@
     <div id="autoOption"></div>
     &copy; <span id="year">2023</span> Team ARQUITECH -
     <a target="_blank" href="https://openai.com/api/">OpenAI</a>
-
 </footer>
 
 </html>
