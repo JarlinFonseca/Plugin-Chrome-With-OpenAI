@@ -7,33 +7,88 @@
     <style>
         /* make sure that adding text to info section does not alter viewport size. */
         html {
-           /* height: 400px;*/
-            width: 380px;
+            height: 195px;
+            width: 400px;
+        }
+
+        .gtx-footer {
+            background-color: #f0f0f0;
+            color: #636363;
+            font-family: 'Roboto', sans-serif;
+            font-size: 11px;
+            margin-top: 9px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            width: 100%;
+        }
+
+        .lds-dual-ring {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+        }
+
+        .lds-dual-ring:after {
+            content: " ";
+            display: block;
+            width: 64px;
+            height: 64px;
+            margin: 8px;
+            border-radius: 50%;
+            border: 6px solid black;
+            border-color: black transparent black transparent;
+            animation: lds-dual-ring 1.2s linear infinite;
+        }
+
+        @keyframes lds-dual-ring {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
     </style>
 </head>
 
 <body>
-    <h1>Generate Images with IA</h1>
-   
-        <input type="text" id="prompt" placeholder="Enter your prompt"  required>
+    <h1 style="text-align: center;">Generate Images with IA</h1>
+
+    <!--   <input type="text" id="prompt" placeholder="Enter your prompt" > -->
+    <textarea id="prompt" cols="49" placeholder="Enter your prompt" rows="3" style="resize: none;"></textarea>
+    <div id="aviso" style="color: red; margin-bottom: 2px;"></div>
+
+    <button id="generate">Generate</button>
+
+    <div id="spinner" style="display: none; margin-bottom: 30px; text-align: center;">
+        <div class="lds-dual-ring">&nbsp</div>
+    </div>
 
 
-        <button id="convert" >Generate</button>
-
-
-
-
-
-    <br>
-    <div  id="show" style="display: none;">
-        <br><br>
-
+    <br><br>
+    <div id="show" class="container" style="display: none; margin-bottom: 5px; text-align: center;">
         <img src="" alt="Imagen IA" id="image" width="350" height="350">
-        <p>URL generada por la IA <strong><a href="" id="result" >URL imagen</a> </strong></p>
+        <p><strong>URL generada por la IA <strong><a href="" target="_blank" id="result">imagen</a></strong></strong>
+        </p>
+        <br><br>
         <div id="error"></div>
     </div>
- 
+
+
 </body>
+
+<footer class="gtx-footer ">
+    <div id="autoOption"></div>
+    &copy; <span id="year">2023</span> Team ARQUITECH -
+    <a target="_blank" href="https://openai.com/api/">OpenAI</a>
+
+</footer>
 
 </html>
