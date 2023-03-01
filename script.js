@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const generate = document.getElementById('generate');
 
     generate.onclick = function () {
-      if (prompt.value.trim() == ""){ 
+      if (prompt.value.trim() == "") {
         alert("You must enter a prompt in the field (message that generates the desired image).");
         document.getElementById('aviso').style.display = "block";
-        document.getElementById('aviso').innerHTML ="You have not entered any message."
-      }else document.getElementById('aviso').style.display = "none";
+        document.getElementById('aviso').innerHTML = "You have not entered any message."
+      } else document.getElementById('aviso').style.display = "none";
     };
     const result = document.getElementById('result');
 
@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
       console.log(promptR)
       if (promptR != null && promptR != "") {
-        document.getElementById("spinner").style.display="block";
-        document.getElementById("show").style.display="none";
+        document.getElementById("spinner").style.display = "block";
+        document.getElementById("show").style.display = "none";
         const response = await fetch('https://api.openai.com/v1/images/generations', {
           method: 'POST',
           headers: {
@@ -36,10 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
             "size": "1024x1024"
           })
         });
-       
+
         const data = await response.json();
-              // línea ocultando el spinner
-    document.getElementById("spinner").style.display="none";
+        // línea ocultando el spinner
+        document.getElementById("spinner").style.display = "none";
 
         console.log(data)
         image_url = data.data[0].url;
@@ -50,6 +50,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
         //document.getElementById("result").href = image_url;
         result.href = `${image_url} `;
+
+        //Send email feature
+
+        const form = document.getElementById('sendEmailForm');
+        var emailBody = "Hola! la url de tu imagen generada es: " + image_url;
+
+        form.addEventListener('submit', async (event) => {
+
+          var email = document.getElementById("email").value;
+
+          const response = await fetch('http://localhost:8080/api/sendMail', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              "subject": "Imagen IA",
+              "body": emailBody,
+              "addressee": email
+            })
+          });
+
+        });
+
+        //End Send email feature
       }
 
     })
