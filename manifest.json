@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "This extension generate Images with OpenIA",
     "manifest_version": 3,
-    "author": "Jarlin Fonseca",
+    "author": "Team Arquitech",
     "action": {
       "default_popup": "index.html",
       "default_title": "Images OpenIA"
