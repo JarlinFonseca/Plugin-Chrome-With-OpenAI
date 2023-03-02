@@ -2,12 +2,12 @@
 
 # Plugin de Chrome usando  la API de OpenAI
 ## Tabla de contenido 
-1. [Descripción](https://github.com/JarlinFonseca/Plugin-Chrome-With-OpenAI/new/main?readme=1#descripci%C3%B3n)
-2. [Tecnologías](https://github.com/JarlinFonseca/Plugin-Chrome-With-OpenAI/new/main?readme=1#tecnolog%C3%ADas)
-3. [IDE](https://github.com/JarlinFonseca/Plugin-Chrome-With-OpenAI/new/main?readme=1#ide)
-4. [Instalación](https://github.com/JarlinFonseca/Plugin-Chrome-With-OpenAI/new/main?readme=1#instalaci%C3%B3n)
-5. [Autores](https://github.com/JarlinFonseca/Plugin-Chrome-With-OpenAI/new/main?readme=1#autores)
-6. [Institución Académica](https://github.com/JarlinFonseca/Plugin-Chrome-With-OpenAI/new/main?readme=1#instituci%C3%B3n-acad%C3%A9mica)
+1. [Descripción](#descripción)
+2. [Tecnologías](#tecnologías)
+3. [IDE](#ide)
+4. [Instalación](#instalación)
+5. [Autores](#autores)
+6. [Institución Académica](#institución-académica)
 
 ## Descripción
 
