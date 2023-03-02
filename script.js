@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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'
+            'Authorization': 'Bearer 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'
           },
           body: JSON.stringify({
             "prompt": promptR,
