@@ -5,15 +5,21 @@
 1. [Descripción](#descripción)
 2. [Tecnologías](#tecnologías)
 3. [IDE](#ide)
-4. [Instalación](#instalación)
-5. [Autores](#autores)
-6. [Institución Académica](#institución-académica)
+4. [Video Explicativo](#video-explicativo)
+5. [Instalación](#instalación)
+6. [Autores](#autores--roles-del-proyecto)
+7. [Institución Académica](#institución-académica)
 
 ## Descripción
 
 **Generate Images With IA** es una extensión de google chrome que permite generar imágenes creadas por una inteligencia artificial. 
 #### ¿Cómo funciona? 
+
+
 Al dar clic en el icono de la extensión ubicado en el "menú de extensiones" se abrirá un popup, en la cual solicitará al usuario que ingrese en una caja de texto un mensaje describiendo detalladamente la imagen que desea que la IA genere (prompt). A continuación, se deberá dar clic en el boton de "generate" y aparecerá la imagen descrita.
+
+![image](https://user-images.githubusercontent.com/80492180/222330299-c32f5eeb-6558-4797-8a2f-b9bc6ec836e6.png)
+![image](https://user-images.githubusercontent.com/80492180/222330627-947c113a-6231-4cc4-91aa-031590cf6b82.png)
 
 ## Tecnologías
 + [HTML5:](https://developer.mozilla.org/es/docs/Glossary/HTML5) es un estándar que sirve como referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado HTML) para la definición de contenido de una página web, como texto, imágenes, vídeos, juegos, entre otros.
@@ -23,6 +29,9 @@ Al dar clic en el icono de la extensión ubicado en el "menú de extensiones" se
 ## IDE:
 Proyecto desarrollado en [Visual Studio Code](https://code.visualstudio.com/).
 
+## Video Explicativo
+Visitar el siguiente enlace para ver el [paso a paso de la extensión desarrollada](https://youtu.be/bA6liyrysA0)
+
 ## Instalación:
 1. Ir a la página de extensiones ingresando a “chrome://extensions/” en una nueva pestaña y en la parte superior derecha, activar el modo desarrollador.
 2. Una vez activado el modo desarrollador, se debe hacer clic en "Cargar extensión sin empaquetar", se debe buscar, seleccionar la carpeta de la extensión y dar clic en "seleccionar carpeta".
@@ -30,14 +39,31 @@ Proyecto desarrollado en [Visual Studio Code](https://code.visualstudio.com/).
 4. Cuando se carga la extensión localmente, aparecerá en el menú de extensiones, se debe dar clic en el icono . Después, se debe fijar la extensión a la barra de herramientas para poder acceder a esta.
 5. Para hacer uso de esta, se debe dar clic en el icono de la extensión donde se debería ver una ventana emergente. El siguiente paso es escribir el prompt describiendo la imagen que se desea que la extensión genere.
 ### Nota:
-Al momento de clonar este proyecto, deberan reemplazar donde dice API-KEY dentro de la petición a la API de OpenAI en el script.js por una API-KEY generada de su cuenta de OpenAI, por este motivo deben registrarse en OpenAI y generar su propia API-KEY, y reemplazarla en el siguiente apartado: "'Authorization': 'Bearer API-KEY'".
+> Al momento de clonar este proyecto, deberan reemplazar donde dice API-KEY dentro de la petición a la API de OpenAI en el script.js por una API-KEY generada de su cuenta de OpenAI, por este motivo deben registrarse en OpenAI y generar su propia API-KEY, y reemplazarla en el siguiente apartado: "'Authorization': 'Bearer API-KEY'".
 
-## Autores
-1. Jarlin Andres Fonseca Bermón 
-2. Junior Yoel Castilla Osorio 
-3. Angely Camila Calderon Garcia 
-4. Brayan Camilo Galván Julio
-5. Juan Sebastián Amaya Ovalle
+## Autores & Roles del Proyecto
+
+#### 1. Jarlin Andres Fonseca Bermón - Gerente Mini Proyecto - jarlinadresfb@ufps.edu.co
+> Gestiona de manera global el proyecto. Planifica, define los recursos, coordina y supervisa el análisis funcional y orgánico, así como también
+el desarrollo y la implementación del software. Gestiona técnicamente el proyecto. También realiza parte del desarrollo de la extensión.
+
+#### 2. Junior Yoel Castilla Osorio - Analista de Calidad - osoriojunioryoelc@ufps.edu.co
+> Revisión y análisis de las especificaciones del sistema. Seguimiento detallado de todo el proceso de elaboración de la extensión con el fin de prevenir 
+errores y fallos. Gestión de la documentación y colaboración con el equipo de trabajo.
+
+#### 3. Angely Camila Calderon Garcia - Desarrolladora FrontEnd - angelycamilacg@ufps.edu.co
+> Desarrollo de la presentación sencilla de la extensión para que sea agradable a la vista, intuitiva y fácil de manejar.
+Gestión de la documentación y colaboración con el equipo de trabajo.
+
+#### 4. Brayan Camilo Galván Julio - Desarrollador Backend - brayancamilogj@ufps.edu.co
+> Gestión de la documentación y colaboración con el equipo de trabajo. Creación Api envío correos.
+Integración Api envío de correos con el plugin.
+
+#### 5. Juan Sebastián Amaya Ovalle - Desarrollador BackEnd - juansebastianao@ufps.edu.co
+
+> Gestión de la documentación y colaboración con el equipo de trabajo. Creación Api envío correos.
+Integración Api envío de correos con el plugin.
+
 
 ## Institución Académica:
 Universidad Francisco de Paula Santander. Proyecto desarrollado para la materia Arquitectura de Software
