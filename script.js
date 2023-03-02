@@ -14,9 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
     };
     const result = document.getElementById('result');
 
-    // const apiKey = "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"
-    //const apiUrl = "https://api.openai.com/v1/images/generations"
-
     generate.addEventListener('click', async () => {
       const promptR = prompt.value.trim();
 
@@ -28,7 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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'
+            /* En este apartado dondo dice API-KEY debe reemplazarla por su propia API-KEY generada en OpenAI */
+            'Authorization': 'Bearer API-KEY'
           },
           body: JSON.stringify({
             "prompt": promptR,
@@ -38,8 +36,9 @@ document.addEventListener('DOMContentLoaded', function () {
         });
        
         const data = await response.json();
-              // línea ocultando el spinner
-    document.getElementById("spinner").style.display="none";
+        
+        // línea ocultando el spinner
+        document.getElementById("spinner").style.display="none";
 
         console.log(data)
         image_url = data.data[0].url;
@@ -48,7 +47,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         document.getElementById("image").src = image_url;
 
-        //document.getElementById("result").href = image_url;
         result.href = `${image_url} `;
       }
 
