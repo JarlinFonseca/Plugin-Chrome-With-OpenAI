@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            /* En este apartado dondo dice API-KEY debe reemplazarla por su propia API-KEY generada en OpenAI */
+            /* En este apartado donde dice API-KEY debe reemplazarla por su propia API-KEY generada en OpenAI (https://platform.openai.com/account/api-keys) */
             'Authorization': 'Bearer API-KEY'
           },
           body: JSON.stringify({
