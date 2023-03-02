@@ -29,6 +29,8 @@ Proyecto desarrollado en [Visual Studio Code](https://code.visualstudio.com/).
 3. En este punto, la extensión ya fue instalada. Se podrá ver en el panel junto con las otras extensiones que se tengan (si es el caso).
 4. Cuando se carga la extensión localmente, aparecerá en el menú de extensiones, se debe dar clic en el icono . Después, se debe fijar la extensión a la barra de herramientas para poder acceder a esta.
 5. Para hacer uso de esta, se debe dar clic en el icono de la extensión donde se debería ver una ventana emergente. El siguiente paso es escribir el prompt describiendo la imagen que se desea que la extensión genere.
+### Nota:
+Al momento de clonar este proyecto, deberan reemplazar donde dice API-KEY dentro de la petición a la API de OpenAI en el script.js por una API-KEY generada de su cuenta de OpenAI, por este motivo deben registrarse en OpenAI y generar su propia API-KEY, y reemplazarla en el siguiente apartado: "'Authorization': 'Bearer API-KEY'".
 
 ## Autores
 1. Jarlin Andres Fonseca Bermón 
