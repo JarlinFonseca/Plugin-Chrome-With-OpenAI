@@ -3,12 +3,11 @@
 # Plugin de Chrome usando  la API de OpenAI
 ## 📜Tabla de contenido 
 1. [Descripción](#descripción)
-2. [Tecnologías](#%EF%B8%8Ftecnologías)
-3. [IDE](#ide)
-4. [Video Explicativo](#video-explicativo)
-5. [Instalación](#instalación)
-6. [Autores](#autores--roles-del-proyecto)
-7. [Institución Académica](#institución-académica)
+2. [Tecnologías e IDE](#%EF%B8%8Ftecnolog%C3%ADas-e-ide)
+3. [Video Explicativo](#video-explicativo)
+4. [Instalación](#instalación)
+5. [Autores](#autores--roles-del-proyecto)
+6. [Institución Académica](#institución-académica)
 
 ## 📝Descripción
 
@@ -21,23 +20,48 @@ Al dar clic en el icono de la extensión ubicado en el "menú de extensiones" se
 ![image](https://user-images.githubusercontent.com/80492180/222330299-c32f5eeb-6558-4797-8a2f-b9bc6ec836e6.png)
 ![image](https://user-images.githubusercontent.com/80492180/222330627-947c113a-6231-4cc4-91aa-031590cf6b82.png)
 
-## 🛠️Tecnologías
-+ [HTML5:](https://developer.mozilla.org/es/docs/Glossary/HTML5) es un estándar que sirve como referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado HTML) para la definición de contenido de una página web, como texto, imágenes, vídeos, juegos, entre otros.
-+ [JavaScript:](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript) es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc.
-+ [CSS3:](https://desarrolloweb.com/manuales/css3.html) sirve para definir la estética de un sitio web en un documento externo y eso mismo permite que modificando ese documento (la hoja CSS) podemos cambiar la estética entera de un sitio web, el mismo sitio web puede variar totalmente de estética cambiando solo la CSS, sin tocar para nada los documentos HTML o jsp o asp que lo componen.
-
-## 📺IDE:
-Proyecto desarrollado en [Visual Studio Code](https://code.visualstudio.com/).
+## 🛠️Tecnologías e IDE
++ [HTML5](https://developer.mozilla.org/es/docs/Glossary/HTML5) ![img](https://github.com/camilacalderon123/imagenes/blob/master/icons8-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-24.png) es un estándar que sirve como referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado HTML) para la definición de contenido de una página web, como texto, imágenes, vídeos, juegos, entre otros.
++ [JavaScript](https://www.javascript.com/) ![img](https://github.com/camilacalderon123/imagenes/blob/master/js.png) lenguaje de programación o de secuencias de comandos que permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc.
++ [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)![img](https://github.com/camilacalderon123/imagenes/blob/master/css.png) sirve para definir la estética de un sitio web en un documento externo y eso mismo permite que modificando ese documento (la hoja CSS) podemos cambiar la estética entera de un sitio web, el mismo sitio web puede variar totalmente de estética cambiando solo la CSS, sin tocar para nada los documentos HTML o jsp o asp que lo componen.
++ Proyecto desarrollado en [Visual Studio Code](https://code.visualstudio.com/) ![img](https://github.com/camilacalderon123/imagenes/blob/master/vsc.png).
 
 ## 🎞Video Explicativo
 Visitar el siguiente enlace para ver el [paso a paso de la extensión desarrollada](https://youtu.be/bA6liyrysA0)
 
 ## ⚙Instalación:
-1. Ir a la página de extensiones ingresando a “chrome://extensions/” en una nueva pestaña y en la parte superior derecha, activar el modo desarrollador.
-2. Una vez activado el modo desarrollador, se debe hacer clic en "Cargar extensión sin empaquetar", se debe buscar, seleccionar la carpeta de la extensión y dar clic en "seleccionar carpeta".
-3. En este punto, la extensión ya fue instalada. Se podrá ver en el panel junto con las otras extensiones que se tengan (si es el caso).
-4. Cuando se carga la extensión localmente, aparecerá en el menú de extensiones, se debe dar clic en el icono . Después, se debe fijar la extensión a la barra de herramientas para poder acceder a esta.
-5. Para hacer uso de esta, se debe dar clic en el icono de la extensión donde se debería ver una ventana emergente. El siguiente paso es escribir el prompt describiendo la imagen que se desea que la extensión genere.
+1. Ir a la página de extensiones ingresando a “chrome://extensions/” en una nueva pestaña.
+
+![img](https://github.com/camilacalderon123/imagenes/blob/master/uno.png)
+
+2. En la parte superior derecha, activar el modo desarrollador.
+
+![img](https://github.com/camilacalderon123/imagenes/blob/master/dos.png)
+
+4. Una vez activado el modo desarrollador, se debe hacer clic en "Cargar extensión sin empaquetar".
+
+![img](https://github.com/camilacalderon123/imagenes/blob/master/tres.png)
+
+5. Siguiente se debe buscar y seleccionar la carpeta de la extensión.
+
+![img](https://github.com/camilacalderon123/imagenes/blob/master/cuatro.png)
+
+6. En este punto, la extensión ya fue instalada. Se podrá ver en el panel junto con las otras extensiones que se tengan (si es el caso).
+ 
+![img](https://github.com/camilacalderon123/imagenes/blob/master/cinco.png)
+
+7. Cuando se carga la extensión localmente, aparecerá en el menú de extensiones, se debe dar clic en el icono. Después, se debe fijar la extensión a la barra de herramientas para poder acceder a esta.
+
+![img](https://github.com/camilacalderon123/imagenes/blob/master/seis.png)
+
+![img](https://github.com/camilacalderon123/imagenes/blob/master/siete.png)
+
+8. Para hacer uso de esta, se debe dar clic en el icono de la extensión donde se debería ver una ventana emergente. El siguiente paso es escribir el prompt describiendo la imagen que se desea que la extensión genere.
+
+![img](https://github.com/camilacalderon123/imagenes/blob/master/ocho.png)
+
+![img](https://github.com/camilacalderon123/imagenes/blob/master/nueve.png)
+
 ### Nota:
 > Al momento de clonar este proyecto, deberan reemplazar donde dice API-KEY dentro de la petición a la API de OpenAI en el script.js por una API-KEY generada de su cuenta de OpenAI, por este motivo deben registrarse en OpenAI y generar su propia API-KEY, y reemplazarla en el siguiente apartado: "'Authorization': 'Bearer API-KEY'".
 
