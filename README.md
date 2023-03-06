@@ -32,35 +32,35 @@ Visitar el siguiente enlace para ver el [paso a paso de la extensión desarrolla
 ## ⚙Instalación:
 1. Ir a la página de extensiones ingresando a “chrome://extensions/” en una nueva pestaña.
 
-![img](https://github.com/camilacalderon123/imagenes/blob/master/uno.png)
+<p align="center"> <img src="https://github.com/camilacalderon123/imagenes/blob/master/uno.png"> </p>
 
 2. En la parte superior derecha, activar el modo desarrollador.
 
-![img](https://github.com/camilacalderon123/imagenes/blob/master/dos.png)
+<p align="center"> <img src="https://github.com/camilacalderon123/imagenes/blob/master/dos.png"> </p>
 
 4. Una vez activado el modo desarrollador, se debe hacer clic en "Cargar extensión sin empaquetar".
 
-![img](https://github.com/camilacalderon123/imagenes/blob/master/tres.png)
+<p align="center"> <img src="https://github.com/camilacalderon123/imagenes/blob/master/tres.png"> </p>
 
 5. Siguiente se debe buscar y seleccionar la carpeta de la extensión.
 
-![img](https://github.com/camilacalderon123/imagenes/blob/master/cuatro.png)
+<p align="center"> <img src="https://github.com/camilacalderon123/imagenes/blob/master/cuatro.png"> </p>
 
 6. En este punto, la extensión ya fue instalada. Se podrá ver en el panel junto con las otras extensiones que se tengan (si es el caso).
  
-![img](https://github.com/camilacalderon123/imagenes/blob/master/cinco.png)
+<p align="center"> <img src="https://github.com/camilacalderon123/imagenes/blob/master/cinco.png"> </p>
 
 7. Cuando se carga la extensión localmente, aparecerá en el menú de extensiones, se debe dar clic en el icono. Después, se debe fijar la extensión a la barra de herramientas para poder acceder a esta.
 
-![img](https://github.com/camilacalderon123/imagenes/blob/master/seis.png)
+<p align="center"> <img src="https://github.com/camilacalderon123/imagenes/blob/master/seis.png"> </p>
 
-![img](https://github.com/camilacalderon123/imagenes/blob/master/siete.png)
+<p align="center"> <img src="https://github.com/camilacalderon123/imagenes/blob/master/siete.png"> </p>
 
 8. Para hacer uso de esta, se debe dar clic en el icono de la extensión donde se debería ver una ventana emergente. El siguiente paso es escribir el prompt describiendo la imagen que se desea que la extensión genere.
 
-![img](https://github.com/camilacalderon123/imagenes/blob/master/ocho.png)
+<p align="center"> <img src="https://github.com/camilacalderon123/imagenes/blob/master/ocho.png"> </p>
 
-![img](https://github.com/camilacalderon123/imagenes/blob/master/nueve.png)
+<p align="center"> <img src="https://github.com/camilacalderon123/imagenes/blob/master/nueve.png"> </p>
 
 ### Nota:
 > Al momento de clonar este proyecto, deberan reemplazar donde dice API-KEY dentro de la petición a la API de OpenAI en el script.js por una API-KEY generada de su cuenta de OpenAI, por este motivo deben registrarse en OpenAI y generar su propia API-KEY, y reemplazarla en el siguiente apartado: "'Authorization': 'Bearer API-KEY'".
