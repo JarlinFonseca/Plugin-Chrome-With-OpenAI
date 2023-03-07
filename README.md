@@ -16,7 +16,7 @@
 
 ## 📜Tabla de contenido 
 1. [Descripción](#descripción)
-2. [Diagrama de arquitectura](#diagrama)
+2. [Diagrama de arquitectura](#diagrama-de-arquitectura)
 3. [Video Explicativo](#video-explicativo)
 4. [Tecnologías e IDE](#%EF%B8%8Ftecnolog%C3%ADas-e-ide)
 5. [Instalación](#instalación)
