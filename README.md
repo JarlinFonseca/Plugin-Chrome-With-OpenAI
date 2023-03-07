@@ -16,11 +16,12 @@
 
 ## 📜Tabla de contenido 
 1. [Descripción](#descripción)
-2. [Video Explicativo](#video-explicativo)
-3. [Tecnologías e IDE](#%EF%B8%8Ftecnolog%C3%ADas-e-ide)
-4. [Instalación](#instalación)
-5. [Autores](#autores--roles-del-proyecto)
-6. [Institución Académica](#institución-académica)
+2. [Diagrama de arquitectura](#diagrama-de-arquitectura)
+3. [Video Explicativo](#video-explicativo)
+4. [Tecnologías e IDE](#%EF%B8%8Ftecnolog%C3%ADas-e-ide)
+5. [Instalación](#instalación)
+6. [Autores](#autores--roles-del-proyecto)
+7. [Institución Académica](#institución-académica)
 
 ## 📝Descripción
 
@@ -35,6 +36,14 @@ Al dar clic en el icono de la extensión ubicado en el "menú de extensiones" se
  <img src="https://user-images.githubusercontent.com/80492180/222330627-947c113a-6231-4cc4-91aa-031590cf6b82.png" alt="IMAGES GENERATOR EXTENSION WITH OPEN AI - CHROME "   height="500" />
 
 </p>
+
+
+
+## 📝Diagrama de arquitectura
+
+![diagrama de arquitectura](https://github.com/juanse50/images/blob/main/diagrama_arquitectura_plugin.drawio.png)
+
+
  
  ## 🎞Video Explicativo
 Visitar el siguiente Video para ver el paso a paso de la extensión desarrollada:
