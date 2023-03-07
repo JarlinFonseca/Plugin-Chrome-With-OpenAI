@@ -39,7 +39,7 @@ Al dar clic en el icono de la extensión ubicado en el "menú de extensiones" se
 
 
 
-## 📝Diagrama de arquitectura {#diagrama}
+## 📝Diagrama de arquitectura
 
 ![diagrama de arquitectura](https://github.com/juanse50/images/blob/main/diagrama_arquitectura_plugin.drawio.png)
 
