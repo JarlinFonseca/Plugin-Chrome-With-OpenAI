@@ -1,10 +1,23 @@
+<!-- LOGO -->
+<p align="center">
+ <a href="https://developer.chrome.com/docs/extensions/mv3/getstarted/">
+   <img src="https://user-images.githubusercontent.com/80492180/223298468-80f5c78e-4c03-4158-9407-6771a4bb8acf.png" alt="IMAGES GENERATOR EXTENSION WITH OPEN AI - CHROME " title="IMAGES GENERATOR EXTENSION WITH OPEN AI - CHROME "  height="300"  />
+ </a>
+ 
+ <!-- TITLE -->
+<h1> IMAGES GENERATOR EXTENSION WITH OPEN AI - CHROME </h1>
+
+</p>
+
+<!-- VERSION (estática)-->
+![VERSION-1.0](https://img.shields.io/badge/VERSION-1.0.0-blueviolet)
 
 
-# Plugin de Chrome usando  la API de OpenAI
+
 ## 📜Tabla de contenido 
 1. [Descripción](#descripción)
-2. [Tecnologías e IDE](#%EF%B8%8Ftecnolog%C3%ADas-e-ide)
-3. [Video Explicativo](#video-explicativo)
+2. [Video Explicativo](#video-explicativo)
+3. [Tecnologías e IDE](#%EF%B8%8Ftecnolog%C3%ADas-e-ide)
 4. [Instalación](#instalación)
 5. [Autores](#autores--roles-del-proyecto)
 6. [Institución Académica](#institución-académica)
@@ -17,8 +30,18 @@
 
 Al dar clic en el icono de la extensión ubicado en el "menú de extensiones" se abrirá un popup, en la cual solicitará al usuario que ingrese en una caja de texto un mensaje describiendo detalladamente la imagen que desea que la IA genere (prompt). A continuación, se deberá dar clic en el boton de "generate" y aparecerá la imagen descrita.
 
-![image](https://user-images.githubusercontent.com/80492180/222330299-c32f5eeb-6558-4797-8a2f-b9bc6ec836e6.png)
-![image](https://user-images.githubusercontent.com/80492180/222330627-947c113a-6231-4cc4-91aa-031590cf6b82.png)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/80492180/222330627-947c113a-6231-4cc4-91aa-031590cf6b82.png" alt="IMAGES GENERATOR EXTENSION WITH OPEN AI - CHROME "   height="500" />
+
+</p>
+ 
+ ## 🎞Video Explicativo
+Visitar el siguiente Video para ver el paso a paso de la extensión desarrollada:
+
+[![Watch the video](https://user-images.githubusercontent.com/80492180/223311727-fd0ec191-1b22-4445-8028-0627da610ee8.png)](https://youtu.be/bA6liyrysA0)
+
+
 
 ## 🛠️Tecnologías e IDE
 + [HTML5](https://developer.mozilla.org/es/docs/Glossary/HTML5) ![img](https://github.com/camilacalderon123/imagenes/blob/master/icons8-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-24.png) es un estándar que sirve como referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado HTML) para la definición de contenido de una página web, como texto, imágenes, vídeos, juegos, entre otros.
@@ -26,8 +49,6 @@ Al dar clic en el icono de la extensión ubicado en el "menú de extensiones" se
 + [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)![img](https://github.com/camilacalderon123/imagenes/blob/master/css.png) sirve para definir la estética de un sitio web en un documento externo y eso mismo permite que modificando ese documento (la hoja CSS) podemos cambiar la estética entera de un sitio web, el mismo sitio web puede variar totalmente de estética cambiando solo la CSS, sin tocar para nada los documentos HTML o jsp o asp que lo componen.
 + Proyecto desarrollado en [Visual Studio Code](https://code.visualstudio.com/) ![img](https://github.com/camilacalderon123/imagenes/blob/master/vsc.png).
 
-## 🎞Video Explicativo
-Visitar el siguiente enlace para ver el [paso a paso de la extensión desarrollada](https://youtu.be/bA6liyrysA0)
 
 ## ⚙Instalación:
 1. Ir a la página de extensiones ingresando a “chrome://extensions/” en una nueva pestaña.
@@ -62,7 +83,7 @@ Visitar el siguiente enlace para ver el [paso a paso de la extensión desarrolla
 
 <p align="center"> <img src="https://github.com/camilacalderon123/imagenes/blob/master/nueve.png"> </p>
 
-### Nota:
+### Nota ⚠️:
 > Al momento de clonar este proyecto, deberan reemplazar donde dice API-KEY dentro de la petición a la API de OpenAI en el script.js por una API-KEY generada de su cuenta de OpenAI, por este motivo deben registrarse en OpenAI y generar su propia API-KEY, y reemplazarla en el siguiente apartado: "'Authorization': 'Bearer API-KEY'".
 
 ## 👥Autores & Roles del Proyecto
@@ -81,15 +102,32 @@ Visitar el siguiente enlace para ver el [paso a paso de la extensión desarrolla
 <a href="https://github.com/JarlinFonseca/Plugin-Chrome-With-OpenAI/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=JarlinFonseca/Plugin-Chrome-With-OpenAI" />
 </a>
-
-
 </p>
 
 <div align="center">
-    Made with https://contrib.rocks
+    Made with 
+ 
+ https://contrib.rocks
+ 
+ https://github.com/L0garithmic/FastColabCopy
+ 
+ https://shields.io/category/version
+ 
+ https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md
+    
 </div>
 
 
 
 ## 🏫Institución Académica:
-Universidad Francisco de Paula Santander. Proyecto desarrollado para la materia Arquitectura de Software
+
+<p align="center">
+Universidad Francisco de Paula Santander. Proyecto desarrollado para la materia Arquitectura de Software - ING. Sistemas <br> <br>
+ 
+ <a href="https://ww2.ufps.edu.co/">
+   <img src="https://ww2.ufps.edu.co/public/archivos/elementos_corporativos/logo-horizontal.jpg" alt="UFPS" title="UFPS"  height="100"  />
+ </a>  
+ <a href="https://ingsistemas.cloud.ufps.edu.co/index.php?id=8">
+   <img src="https://ingsistemas.cloud.ufps.edu.co/rsc/img/logo_vertical_ingsistemas_ht180.png" alt="UFPS-ING-SISTEMAS" title="UFPS-ING-SISTEMAS"  height="100"  />
+ </a>  
+ </p>
